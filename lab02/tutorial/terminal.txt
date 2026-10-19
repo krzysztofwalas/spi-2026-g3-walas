@@ -1623,4 +1623,122 @@ fatal: empty ident name (for <>) not allowed
 [33mhint: not have locally. This is usually caused by another repository pushing[m
 [33mhint: to the same ref. You may want to first integrate the remote changes[m
 [33mhint: (e.g., 'git pull ...') before pushing again.[m
-[33mhint: See the 'Note about fast-
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   lab02/.keep[m
+	[32mnew file:   lab02/tutorial/terminal.txt[m
+	[32mnew file:   lab02/vimtutor.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   lab02/tutorial/terminal.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab02/tutorial/A.TXT[m
+	[31mlab02/tutorial/A.txt[m
+	[31mlab02/tutorial/a.txt[m
+	[31mlab02/tutorial/backup-combined.txt[m
+	[31mlab02/tutorial/combined.txt[m
+	[31mlab02/tutorial/dir4/[m
+	[31mlab02/tutorial/output.txt[m
+
+
+It took 2.94 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git status[K[K[K[K[K[Kadd -A
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git add -Astatus[2Ppushcommit -m "Dodanie pliku vimtutor"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"U"s"u"n"i"e"c"i"e" "k"a"t"a"l"o"g"u" "l"a"b"0"2"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <>) not allowed
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git commit -m "Usuniecie katalogu lab02"add -A[Kcommit -m "Usuniecie katalogu lab02"add -A[Kcommit -m "Usuniecie katalogu lab02"add -A[Kcommit -m "Usuniecie katalogu lab02"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit config --global user.emial ""e"x"m"a"[1P"[1P"a"m"p"l"e"."c"o"m"@example.com"k@example.com"r@example.com"z@example.com"y@example.com"s@example.com"z@example.com"t@example.com"o@example.com"f@example.com"w@example.com"a@example.com"l@example.com"a@example.com"s@example.com"3@example.com"[C@example.com"g@example.com"m@example.com"a@example.com"l@example.com".@example.com"c@example.com"o@example.com"m@example.com" [A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cil.com@example.com"[A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git config --global user.emial "krzysztofwalas3@gmail.com@example.com"[A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.emial "krzysztofwalas3@gmail.com@example.com"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kser.name ""k"r"z"y"s"z"t"o"f"w"a"l"a"s"[C
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git config --global user.name "krzysztofwalas"emial "krzysztofwalas3@gmail.com@example.com"[A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [C[C[C[C[C[C[29Pmmit -m "Usuniecie katalogu lab02"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[main 832408b] Usuniecie katalogu lab02
+ 14 files changed, 1750 insertions(+)
+ create mode 100644 lab02/.keep
+ create mode 100644 lab02/tutorial/A.TXT
+ create mode 100644 lab02/tutorial/A.txt
+ create mode 100644 lab02/tutorial/a.txt
+ create mode 100644 lab02/tutorial/backup-combined.txt
+ create mode 100644 lab02/tutorial/combined.txt
+ create mode 100644 lab02/tutorial/dir4/dir5/dir6/combined.txt
+ create mode 100644 lab02/tutorial/dir4/dir5/dir6/dir2/combined.txt
+ create mode 100644 lab02/tutorial/dir4/dir5/dir6/dir2/test-1.txt
+ create mode 100644 lab02/tutorial/dir4/dir5/dir6/dir2/test-2.txt
+ create mode 100644 lab02/tutorial/dir4/dir5/dir6/dir2/test-3.txt
+ create mode 100644 lab02/tutorial/output.txt
+ create mode 100644 lab02/tutorial/terminal.txt
+ create mode 100644 lab02/vimtutor.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git commit -m "Usuniecie katalogu lab02"nfig --global user.name "krzysztofwalas"emial "krzysztofwalas3@gmail.com@example.com"[A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [C[C[C[C[C[C[29Pmmit -m "Usuniecie katalogu lab02"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfig --global user.emial "krzysztofwalas3@gmail.com@example.com"[A]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pname "krzysztofwalas"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pmmit -m "Usuniecie katalogu lab02"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push
+[?2004lTo https://github.com/krzysztofwalas/spi-2026-g3-walas.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/krzysztofwalas/spi-2026-g3-walas.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git push[Kgit push[K[K[Kull --rebase origin main
+[?2004lerror: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git pull --rebase origin main[Kgit pull --rebase origin main[Kgit pull --rebase origin mainsh[Kll --rebase origin main[Kgit status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   lab02/tutorial/terminal.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git brench --show0[K-current
+[?2004lgit: 'brench' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git brench --show-currentstatus[Kpull --rebase origin mainsh[Kll --rebase origin main
+[?2004lerror: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git pull --rebase origin main[4Pbrench --show-current
+[?2004lgit: 'brench' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ git brench --show-currentpull --rebase origin main[4Pbrench --show-current[Kcd lab-2/tutorial/terminal.txt
+[?2004lbash: cd: lab-2/tutorial/terminal.txt: No such file or directory
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ cd lab-2/tutorial/terminal.txt[C[1P2/tutorial/terminal.txt02/tutorial/terminal.txt
+[?2004lbash: cd: lab02/tutorial/terminal.txt: Not a directory
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas[00m$ cd lab02/tutorial/terminal.txt[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la
+[?2004ltotal 380
+drwxrwxr-x 10 student student   4096 paź 19 10:52 [0m[01;34m.[0m
+drwxrwxr-x  3 student student   4096 paź 19 10:56 [01;34m..[0m
+-rw-rw-r--  1 student student     11 paź 19 10:39 a.txt
+-rw-rw-r--  1 student student     11 paź 19 10:39 A.txt
+-rw-rw-r--  1 student student     11 paź 19 10:39 A.TXT
+-rw-rw-r--  1 student student      0 paź 19 10:43 backup-combin
