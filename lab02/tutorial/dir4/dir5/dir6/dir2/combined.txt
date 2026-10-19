@@ -1,0 +1,107 @@
+Script started on 2026-10-19 10:23:44+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="55"]
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ git config --list[Kc[Kla -la[K[K[K[K[Ks -la[K
+[?2004ltotal 0
+-rw-rw-r-- 1 student student 0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la[Kls -lagit config --listocal[3Ph auth logout it config --global --list[K --list[11Ph auth logout it config --local[1Pist[11Pls -la[Kls -lagit config --list[11Pls -la[Kls -la[Kpwd
+[?2004l/home/student/spi-2026-g3-walas/lab02/tutorial
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ /home[K[K[K[K[Kmkdir /[K[K dir1 f[Kdir2 dir3
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la
+[?2004ltotal 20
+drwxrwxr-x 5 student student 4096 paź 19 10:31 [0m[01;34m.[0m
+drwxrwxr-x 3 student student 4096 paź 19 10:23 [01;34m..[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir1[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir2[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir3[0m
+-rw-rw-r-- 1 student student    0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la[Kmkdir -p dir4/dir5/dir6
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cd dir4
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial/dir4[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial/dir4[00m$ cd.. ..
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ mkdir other dir
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls
+[?2004l[0m[01;34mdir[0m  [01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mother[0m  terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l
+[?2004ltotal 24
+drwxrwxr-x 2 student student 4096 paź 19 10:33 [0m[01;34mdir[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir1[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir2[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir3[0m
+drwxrwxr-x 3 student student 4096 paź 19 10:32 [01;34mdir4[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:33 [01;34mother[0m
+-rw-rw-r-- 1 student student    0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l output.txct[K[Kt?output.txt[1Poutput.txt>output.txt<output.txt output.txt[1Poutput.txt[1Poutput.txt output.txt
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l > outpuTo jest test
+To jest drugi test
+To jest trzeci test
+Script started on 2026-10-19 10:23:44+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="55"]
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ git config --list[Kc[Kla -la[K[K[K[K[Ks -la[K
+[?2004ltotal 0
+-rw-rw-r-- 1 student student 0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la[Kls -lagit config --listocal[3Ph auth logout it config --global --list[K --list[11Ph auth logout it config --local[1Pist[11Pls -la[Kls -lagit config --list[11Pls -la[Kls -la[Kpwd
+[?2004l/home/student/spi-2026-g3-walas/lab02/tutorial
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ /home[K[K[K[K[Kmkdir /[K[K dir1 f[Kdir2 dir3
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la
+[?2004ltotal 20
+drwxrwxr-x 5 student student 4096 paź 19 10:31 [0m[01;34m.[0m
+drwxrwxr-x 3 student student 4096 paź 19 10:23 [01;34m..[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir1[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir2[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir3[0m
+-rw-rw-r-- 1 student student    0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la[Kmkdir -p dir4/dir5/dir6
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cd dir4
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial/dir4[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial/dir4[00m$ cd.. ..
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ mkdir other dir
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls
+[?2004l[0m[01;34mdir[0m  [01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mother[0m  terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l
+[?2004ltotal 24
+drwxrwxr-x 2 student student 4096 paź 19 10:33 [0m[01;34mdir[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir1[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir2[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:31 [01;34mdir3[0m
+drwxrwxr-x 3 student student 4096 paź 19 10:32 [01;34mdir4[0m
+drwxrwxr-x 2 student student 4096 paź 19 10:33 [01;34mother[0m
+-rw-rw-r-- 1 student student    0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l output.txct[K[Kt?output.txt[1Poutput.txt>output.txt<output.txt output.txt[1Poutput.txt[1Poutput.txt output.txt
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -l > output.txt[K > output.txt[Kcat output.txt
+[?2004ltotal 24
+drwxrwxr-x 2 student student 4096 paź 19 10:33 dir
+drwxrwxr-x 2 student student 4096 paź 19 10:31 dir1
+drwxrwxr-x 2 student student 4096 paź 19 10:31 dir2
+drwxrwxr-x 2 student student 4096 paź 19 10:31 dir3
+drwxrwxr-x 3 student student 4096 paź 19 10:32 dir4
+drwxrwxr-x 2 student student 4096 paź 19 10:33 other
+-rw-rw-r-- 1 student student    0 paź 19 10:34 output.txt
+-rw-rw-r-- 1 student student    0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ echo ""T"o" "j"e"s"t" "t"e"s"t"
+[?2004lTo jest test
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ echo "To jest test"[Kecho "To jest test" > test-1.txt
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ echo "To jest test" > test-1.txt[1@d[1@r[1@u[1@g[1@i[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt2.txt
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ echo "To jest drugi test" > test-2.txt[1P.txt3.txt[1P[1P[1P[1P[1P[1@t[1@r[1@z[1@e[1@c[1@i
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls
+[?2004l[0m[01;34mdir[0m  [01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mother[0m  output.txt  terminal.txt  test-1.txt  test-2.txt  test-3.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cat test-1.txt test-2.txt test-3.txt
+[?2004lTo jest test
+To jest drugi test
+To jest trzeci test
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cat test-1.txt test-2.txt test-3.txt[Kcat test-1.txt test-2.txt test-3.txt[1Ptxt[1Ptxt[1Ptxt[1Pxt[1Ptxt[1Ptxt[1Pxt[1Ptxt[1Pxt[1Ptxt[1Pxt[1Ptxt[1Ptxt[1Ptxt[1Pxt[1Ptxt[1Ptxt[1Pxt[1Ptxt[1Pxt[1Ptxt[1Pxt[1Ptxt[1Ptxt.txt?.txt
+[?2004lTo jest test
+To jest drugi test
+To jest trzeci test
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cat test-?.txt[Kcat test-?.txt[K[K[K[K[K*
+[?2004lTo jest test
+To jest drugi test
+To jest trzeci test
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cat test-*[Kvat[K[K[Kcat t* > combined.txt
+[?2004l[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ cat t* > combined.txt[C[C[1Pcombined.txt[1Pcombined.txt[1Pcombined.txt[1Pcombined.txt[1Pcombined.txt
+[?2004lScript started on 2026-10-19 10:23:44+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="55"]
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ git config --list[Kc[Kla -la[K[K[K[K[Ks -la[K
+[?2004ltotal 0
+-rw-rw-r-- 1 student student 0 paź 19 10:23 terminal.txt
+[?2004h]0;student@lab135: ~/spi-2026-g3-walas/lab02/tutorial[01;32mstudent@lab135[00m:[01;34m~/spi-2026-g3-walas/lab02/tutorial[00m$ ls -la[Kls -To jest test
+To jest drugi test
+To jest trzeci test

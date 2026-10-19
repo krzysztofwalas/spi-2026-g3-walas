@@ -1,0 +1,2 @@
+vimtutor - wykonane cwiczenia Nauczylem sie poruszac kursorem, edytowac tekst i zapisywac pliki.
+
