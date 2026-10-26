@@ -1,0 +1,3 @@
+ 10:17:48 up 21 min,  1 user,  load average: 0,00, 0,23, 0,65
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+student  tty2     tty2             08:57    1:20m  0.03s  0.00s /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
