@@ -1,0 +1,9 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	google.pl
+Address: 172.217.23.227
+Name:	google.pl
+Address: 2a00:1450:400e:80a::2003
+
