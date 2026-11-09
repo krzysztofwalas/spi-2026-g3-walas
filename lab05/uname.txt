@@ -1,0 +1,16 @@
+Linux lab135 6.8.0-88-generic #89~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 29 10:45:25 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Linux
+lab135
+6.8.0-88-generic
+#89~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 29 10:45:25 UTC 2
+x86_64
+x86_64
+x86_64
+GNU/Linux
+uname (GNU coreutils) 8.32
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by David MacKenzie.

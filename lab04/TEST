@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 		 Lekcja 1.5.1.: JAK WYKONAĆ POLECENIA ZEWNĘTRZNE?
+=======
+		 Lekcja 5.1.: JAK WYKONAĆ POLECENIA ZEWNĘTRZNE?
+>>>>>>> e2385f0 (Laboratorium 4)
 
 
 	** Wpisz  :!  a następnie zewnętrzne polecenie, by je wykonać. **
@@ -21,7 +25,11 @@ Uwaga:  Wszystkie polecenia  :  muszą być zakończone <ENTER>.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
 		    Lekcja 1.5.2.: WIĘCEJ O ZAPISYWANIU PLIKÓW
+=======
+		    Lekcja 5.2.: WIĘCEJ O ZAPISYWANIU PLIKÓW
+>>>>>>> e2385f0 (Laboratorium 4)
 
 
 	   ** By zachować zmiany w tekście, wpisz :w NAZWA_PLIKU . **
@@ -44,10 +52,19 @@ Uwaga: Zauważ, że gdybyś teraz wyszedł z Vima, a następnie wszedł ponownie
                           lub (Unix):              :!rm TEST
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
 		    Lekcja 1.5.3.: WYBRANIE TEKSTU DO ZAPISU
+=======
+		    Lekcja 5.3.: WYBRANIE TEKSTU DO ZAPISU
+>>>>>>> e2385f0 (Laboratorium 4)
 
 
 	  ** By zachować część pliku, wpisz  v ruch :w NAZWA_PLIKU **
 
   1. Przenieś kursor do tego wiersza.
 
+<<<<<<< HEAD
+=======
+  2. Wciśnij  v  i przenieś kursor do punktu 5. Zauważ, że tekst został
+     podświetlony.
+>>>>>>> e2385f0 (Laboratorium 4)

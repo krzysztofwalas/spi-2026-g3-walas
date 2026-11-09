@@ -1,0 +1,4 @@
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 003: ID c0f4:07f5 Usb KeyBoard Usb KeyBoard
+Bus 001 Device 002: ID 10c4:8108 Silicon Labs USB OPTICAL MOUSE
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

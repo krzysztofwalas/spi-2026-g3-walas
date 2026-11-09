@@ -1,0 +1,1 @@
+nie ma dostępu do cal po wpisaniu polecenia sudo apt install cal (uprawnienia administratora)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ===============================================================================
 =    W i t a j   w   t u t o r i a l u   V I M - a      -    Wersja  1.7.     =
 ===============================================================================
@@ -1099,3 +1100,7 @@ UWAGA: Uzupełnianie działa dla wielu poleceń. Spróbuj wcisnąć CTRL-D i <TA
   3rd rev. Marzec 2006
   4th rev. Grudzień 2008
   Wszelkie uwagi proszę kierować na: mikmach@wp.pl
+=======
+
+
+>>>>>>> e2385f0 (Laboratorium 4)

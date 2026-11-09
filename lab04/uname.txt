@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Linux DOM 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+=======
+Linux lab135 6.8.0-88-generic #89~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 29 10:45:25 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+>>>>>>> e2385f0 (Laboratorium 4)

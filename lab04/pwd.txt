@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /home/dom/spi-2026-g3-walas/lab04
+=======
+/home/student/spi-2026-g3-walas/lab04
+>>>>>>> e2385f0 (Laboratorium 4)
