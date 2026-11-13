@@ -1,0 +1,10 @@
+geoclue:x:109:113::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:110:111::/nonexistent:/usr/sbin/nologin
+pipewire:x:981:981:system user for pipewire:/nonexistent:/usr/sbin/nologin
+hplip:x:111:7:HPLIP system user:/run/hplip:/bin/false
+gnome-remote-desktop:x:980:980:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:979:979:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:978:978:RealtimeKit:/proc:/usr/sbin/nologin
+colord:x:977:977:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
+gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
+dom:x:1000:1000:DOM:/home/dom:/bin/bash
