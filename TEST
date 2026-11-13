@@ -1,0 +1,53 @@
+		 Lekcja 1.5.1.: JAK WYKONAĆ POLECENIA ZEWNĘTRZNE?
+
+
+	** Wpisz  :!  a następnie zewnętrzne polecenie, by je wykonać. **
+
+  1. Wpisz znajome polecenie  :  by ustawić kursor na dole ekranu. To pozwala
+     na wprowadzenie komendy linii poleceń.
+
+  2. Teraz wstaw  !  (wykrzyknik). To umożliwi Ci wykonanie dowolnego
+     zewnętrznego polecenia powłoki.
+
+  3. Jako przykład wpisz  ls  za  !  a następnie wciśnij <ENTER>. To polecenie
+     pokaże spis plików w Twoim katalogu, tak jakbyś był przy znaku zachęty
+     powłoki. Możesz też użyć  :!dir  jeśli  ls  nie działa.
+
+Uwaga:  W ten sposób można wykonać wszystkie polecenia powłoki.
+Uwaga:  Wszystkie polecenia  :  muszą być zakończone <ENTER>.
+        Od tego momentu nie zawsze będziemy o tym wspominać.
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		    Lekcja 1.5.2.: WIĘCEJ O ZAPISYWANIU PLIKÓW
+
+
+	   ** By zachować zmiany w tekście, wpisz :w NAZWA_PLIKU . **
+
+  1. Wpisz  :!dir  lub  :!ls  by zobaczyć spis plików w katalogu.
+     Już wiesz, że musisz po tym wcisnąć <ENTER>.
+
+  2. Wybierz nazwę pliku, jaka jeszcze nie istnieje, np. TEST.
+
+  3. Teraz wpisz:   :w TEST   (gdzie TEST jest nazwą pliku jaką wybrałeś.)
+
+  4. To polecenie zapamięta cały plik (Vim Tutor) pod nazwą TEST.
+     By to sprawdzić, wpisz  :!dir  lub  :!ls  żeby znowu zobaczyć listę plików.
+
+Uwaga: Zauważ, że gdybyś teraz wyszedł z Vima, a następnie wszedł ponownie
+       poleceniem  vim TEST , plik byłby dokładną kopią tutoriala, kiedy go
+       zapisywałeś.
+
+  5. Teraz usuń plik wpisując (MS-DOS):		   :!del TEST
+                          lub (Unix):              :!rm TEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		    Lekcja 1.5.3.: WYBRANIE TEKSTU DO ZAPISU
+
+
+	  ** By zachować część pliku, wpisz  v ruch :w NAZWA_PLIKU **
+
+  1. Przenieś kursor do tego wiersza.
+
