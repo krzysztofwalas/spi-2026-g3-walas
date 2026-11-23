@@ -1,0 +1,59 @@
+1. Tak. Użytkownik devconnected posiada uprawnienia do odczytu i zapisu pliku, także może go modyfikować.
+
+2. Nie. Bob nie należy do grupy devconnected i nie ma uprawnień zapisu do katalogu, dlatego nie może przenieść pliku.
+
+3. Nie. Bob nie posiada uprawnienia x do katalogu, więc nie może do niego wejść.
+
+4. Tak. Użytkownik posiada uprawnienie zapisu do pliku.
+
+5. 1010001(bin) = 81(10)
+
+6. 11011(bin) = 27(10)
+
+7. 12(10) = 1100(bin)
+
+8. chmod 777 - wszystkie uprawnienia (rwx) dla właściciela, grupy i pozostałych użytkowników.
+
+9. chmod 444 - uprawnienie tylko do odczytu (r--) dla wszystkich użytkowników.
+
+10. chmod 641 - właściciel: rw-, grupa r--, pozostali: --x
+
+11. Polecenie umask.
+
+12. Maska umask określa, które uprawnienia zostaną usunięte podczas tworzenia nowych plików i katalogów.
+
+13. Dla maski 022 nowe pliki otrzymają uprawnienia 644 czyli rw-r--r--
+
+14. Dla maski 022 nowe katalogi otrzymają uprawnienia 755, czyli rwxr-xr-x
+
+15. Uprawnienie x dla katalogu pozwala na przechodzenie przez katalog i wejście do niego.
+
+16. Uprawnienia dla katalogu pozwala na tworzenie, usuwanie i zmiane nazw plików w katalogu.
+
+17. Sticky bit. Chroni pliki w katalogu współdzielonym przed usuwaniem przez nieuprawnionych użytkowników.
+
+18. Nie. Sticky bit pozwala usuwać plik właścicielowi pliku, właścicielowi katalogu lub administratorowi.
+
+19. Nie. Wielka litera T oznacza ustawiony sticky bit ale brak uprawnienia wykonywana dla pozostałych.
+
+20. Polecenie chown
+
+21. Polecenie chgrp
+
+22. Opcja -R
+
+23. Opcja -c
+
+24. SUID pozwala uruchomić program z uprawnieniami właściciela pliku, a nie użytkownika uruchamiającego.
+
+25. Polecenie passwd.
+
+26. chmod u+s nazwa_pliku lub chmod 4777 nazwa_pliku
+
+27. SGID pozwala uruchomić program z uprawnieniami grupy przypisanej do pliku.
+
+28. chmod g+s nazwa_pliku lub chmod 2777 nazwa_pliku
+
+29. Nie. Aby zachować uprawnienia podczas kopiowania, należy użyć opcji -p polecenia cp.
+
+30. Mała litera t oznacza ustawiony sticky bit i uprawnienie wykonywania. Wielka litera T oznacza ustawiony sticky bit, ale brak uprawnienia x.
