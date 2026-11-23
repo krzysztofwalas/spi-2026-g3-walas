@@ -1,0 +1,13 @@
+apropos - przeszukuje nazwy i opisy strony podręcznika systemowego
+cal - wyświetla komentarz
+cat - wyświetla zawartość danego pliku
+chown - zmienia właściciela pliku
+cp - kopiuje pliki i katalogi
+date - wyświetla date i godzine
+grep - wyszukuje tekst w plikach
+groups - wyświetla grupy użytkownika
+history - wyświetla historie poleceń
+touch - tworzy plik
+uname - wyświetla informacje o systemie
+wc - zlicza wiersze i znaki
+whoami - gdzie jestem
